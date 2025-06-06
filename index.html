@@ -1,1 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <link rel="stylesheet" href="/css/scrypt.css">
+    <script src="index.js"></script>
+   <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<head>
+  <meta charset="UTF-8">
+
+  <title>Quicklist - Compras da semana</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <header id="topo">
+    <div class="header-content">
+      <img src="/assets/logo.png" alt="Logo">
+      <span>quicklist</span>
+    </div>
+  </header>
+  <div class="container">
+    <a href="#" class="voltar">← Voltar</a>
+    <h1>Compras da semana</h1>
+
+    <div class="input-container">
+      <input type="text" placeholder="Adicione um novo item">
+      <button class="add-button">Adicionar item</button>
+    </div>
+
+<ul class="lista">
+  <li>
+    <label>
+      <input type="checkbox"> Pão de forma
+    </label>
+    <button class="delete"><img src="/assets/lixeira.png" alt=""></button>
+  </li>
+  <li>
+    <label>
+      <input type="checkbox"> Café preto
+    </label>
+    <button class="delete"><img src="/assets/lixeira.png" alt=""></button>
+  </li>
+  <li>
+    <label>
+      <input type="checkbox"> Suco de laranja
+    </label>
+    <button class="delete"><img src="/assets/lixeira.png" alt=""></button>
+  </li>
+  <li>
+    <label>
+      <input type="checkbox"> Bolacha
+    </label>
+    <button class="delete"><img src="/assets/lixeira.png" alt=""></button>
+  </li>
+</ul>
+
+   <div class="alerta">
+  <span class="mensagem-alerta">
+    <img src="/assets/exclamação.png" alt="" id="exclamacao">
+    O item foi removido da lista
+  </span>
+  <button class="fechar-alerta">✕</button>
+</div>
+  </div>
+</body>
+</html>
 
