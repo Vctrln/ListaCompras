@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const botaoDelete = document.createElement('button');
     botaoDelete.classList.add('delete');
     const imgLixeira = document.createElement('img');
-    imgLixeira.src = '../ListaCompras/assets/lixeira.png';
+    imgLixeira.src = './assets/lixeira.png';
     imgLixeira.alt = '';
     botaoDelete.appendChild(imgLixeira);
 
