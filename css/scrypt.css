@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: 'Inter', sans-serif;
@@ -127,7 +131,7 @@ h1 {
 }
 
 .alerta {
-   background-color: #C93847;
+ background-color: #C93847;
   color: white;
   font-size: 14px;
   padding: 12px 16px;
@@ -136,7 +140,7 @@ h1 {
   align-items: center;
   justify-content: space-between;
   margin-top: 20px;
-  width: 100%; 
+  width: 100%;
   box-sizing: border-box;
 }
 
@@ -148,6 +152,7 @@ h1 {
 
 #exclamacao {
   height: 20px;
+  max-width: 100%;
 }
 
 .fechar-alerta {
